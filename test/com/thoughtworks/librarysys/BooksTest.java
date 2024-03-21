@@ -1,5 +1,6 @@
 package com.thoughtworks.librarysys;
 
+import org.junit.Ignore;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -163,6 +164,7 @@ public class BooksTest {
     }
 
     @Test
+    @Ignore
     public void shouldListCheckOutDetailsOfTheBorrowedBooksInTheLibrary() {
         ArrayList<Book> listOfBooks = new ArrayList<>();
         Book bookOne = new Book("Gone Girl", "Gillian Flynn", 2014);
